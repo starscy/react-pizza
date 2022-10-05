@@ -1,0 +1,25 @@
+.root {
+    position: relative;
+
+    .searchBar {
+        position: absolute;
+        width: 20px;
+        margin: 4px;
+    }
+
+    .searchInput {
+        padding: 5px 40px 5px 30px;
+        border-radius: 1em;
+    }
+
+    .clear {
+        position: absolute;
+        right: 3px;
+        top: 0px;
+    }
+
+    & :hover {
+        cursor: pointer;
+    }
+
+}
